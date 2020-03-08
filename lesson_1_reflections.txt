@@ -1,0 +1,52 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It was much easier than going through the two very long files, line by line.
+    Even if the mistake is easy to see (spacr vs. space) I would have probably
+    missed because I would have been bored out of my skull by the time I reached
+    line 400 or so.
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I will be willing to take more risks (and be more creative) if I am not
+    afraid to blow it for good if I change something that was working. Being
+    able to go back in time to where things were OK is a godsend.
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Tight control is always good... except when you have zero discipline and
+    always forget to commit and end up with humongous change sets. Even then,
+    I would argue that humongous commits are better than automatic commits,
+    which don't make any sense, and won't even compile more often than not.
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because, when coding, it is more likely (very likely) to have files that
+    are related to each other. Text documents are typically (but not always)
+    self-contained and unrelated to each other.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+    I really can't think of anything to say.
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Much more confident. If you know you can go back to a safe/stable situation
+    at zero cost, you'll be more likely to try new stuff. I wish I could do
+    that IRL!
+ 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to do some coding on the side. Some Arduino stuff. Some Docker and
+    Kubernetes. Git will be very helpful.
