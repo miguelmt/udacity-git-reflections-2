@@ -1,18 +1,49 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+    git creates the infrastructure to make a repository out of a regular
+    directory. We need this to store metadata and the history (i.e. old
+    versions) of the files in the repository. OMG.
+
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+    It's something in the middle. It is a subset of the working directory, and
+    not yet a part of the repository (not until we hit commit).
+
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    By adding *only* the files that are related to the change I want to commit
+    before I actually commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    When trying new ideas. When you need to patch a bug in an earlier version
+    of your code or when you need to maintain it separate from the "main" or
+    branch where the product evolves. Branches make it possible for me to keep
+    separate versions of the same code base separate, yet related.
+    Branches are also useful when different people (or even you) are working
+    on different features. Branches provide independence and isolation.
+
 How do the diagrams help you visualize the branch structure?
+
+    They visualize the branch structure. The regular, flat representation
+    of commits in git log doesn't show structure at all.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+    A combination of the files in the two branches, in the branch that was
+    checked out.
+    We represent it like that because the new commit has two parents rather
+    than only one.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+    Automatic merging is designed to be safe (or so I hope!) and it saves you
+    a huge lot of time by taking care of the trivial merges, which you would
+    need to go over otherwise.
